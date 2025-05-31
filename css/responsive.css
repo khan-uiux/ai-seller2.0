@@ -200,6 +200,33 @@
     }
 }
 
+@media screen and (max-width: 375) {
+    .const-header {
+        width: 92%;
+    }
+
+    .main-section::before {
+        width: 98%;
+    }
+
+    .main-section::after {
+        width: 99%;
+    }
+
+    .newslater-image img {
+        width: 86%;
+    }
+
+    .sign-up-btn {
+        padding: 15px 20px;
+        font-size: 13px;
+    }
+
+    .section-heading, .section-heading.first {
+        font-size: 23px;
+    }
+}
+
 
 @media screen and (min-width: 768px) {
     nav {
