@@ -286,7 +286,7 @@ nav ul li a:hover {
     left: 0;
     width: 36px;
     height: 36px;
-    background-image: url(../images/tick.png);
+    background-image: url(../images/check.png);
 }
 
 .left-content-list {
