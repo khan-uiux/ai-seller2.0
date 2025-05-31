@@ -198,6 +198,10 @@
     .summaryBox::before {
         z-index: -2;
     }
+
+    .inputSlot {
+        margin: 0px 0px 20px 0px;
+    }
 }
 
 @media screen and (max-width: 375px) {
@@ -224,6 +228,10 @@
 
     .section-heading, .section-heading.first {
         font-size: 23px;
+    }
+
+    .inputSlot {
+        margin: 0px 0px 20px 0px;
     }
 }
 

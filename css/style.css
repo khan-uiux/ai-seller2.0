@@ -315,15 +315,23 @@ nav ul li a:hover {
 .inputField {
     border: none;
     height: 60px;
-    border-radius: 30px;
+    border-radius: 12px;
     background: #191934;
     padding: 10px 10px 10px 40px;
     display: block;
     width: 100%;
-    margin: 20px 0px;
+    margin: 10px 0px;
     font-size: 16px;
     font-weight: 400;
     letter-spacing: .3px;
+}
+
+.inputSlot {
+    margin: 0px 0px 30px 0px;
+}
+
+label {
+    color: #fff;
 }
 
 .newslater-image img {
@@ -341,7 +349,7 @@ nav ul li a:hover {
 
 
 .sign-up-btn {
-    margin: 30px 0px;
+    margin: 0px 0px 30px 0px;
     background-color: #6E38FD;
     padding: 20px 30px;
     border: none;
