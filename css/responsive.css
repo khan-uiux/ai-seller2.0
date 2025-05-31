@@ -243,5 +243,6 @@
 
     .const-header {
         width: 96%;
+        min-width: 100%;
     }
 }
