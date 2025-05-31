@@ -200,7 +200,7 @@
     }
 }
 
-@media screen and (max-width: 375) {
+@media screen and (max-width: 375px) {
     .const-header {
         width: 92%;
     }
