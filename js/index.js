@@ -10,7 +10,6 @@ menuBtn.addEventListener('click', () => {
 // Close mobile menu
 closeMenu.addEventListener('click', () => {
     navbarEl.style.left = "-47rem";
-    console.log('clicked');
 });
 
 // Fixed header on scroll
@@ -20,7 +19,6 @@ const fixHeader = () => {
     window.addEventListener('scroll', () => {
         if (window.scrollY > 100) {
             headerEl.classList.add('const-header');
-            console.log('class added');
         } else {
             headerEl.classList.remove('const-header');
         }
