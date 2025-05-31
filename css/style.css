@@ -92,7 +92,7 @@ nav ul li a:hover {
 .hero-section {
     position: relative;
     height: auto;
-    background-image: url(/images/hero-bg.webp);
+    background-image: url(../images/hero-bg.webp);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
