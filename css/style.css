@@ -21,7 +21,7 @@ p {
 
 
 header {
-    background-image: url(/images/header-bg.png);
+    background-image: url(../images/header-bg.png);
     background-position: center;
     background-size: cover;
     width: 100%;
@@ -148,7 +148,7 @@ nav ul li a:hover {
 .main-section {
     height: auto;
     padding: 90px 0px;
-    background-image: url(/images/grid-design.png);
+    background-image: url(../images/grid-design.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -214,7 +214,7 @@ nav ul li a:hover {
     width: 100%;
     top: 0;
     left: 0;
-    background-image: url(/images/section-2-bg.png);
+    background-image: url(../images/section-2-bg.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -255,7 +255,7 @@ nav ul li a:hover {
 .live-workshop .content::before {
     content: "";
     position: absolute;
-    background-image: url(/images/grid-design-2.png);
+    background-image: url(../images/grid-design-2.png);
     background-position: center;
     background-size: cover;
     width: 100%;
@@ -286,7 +286,7 @@ nav ul li a:hover {
     left: 0;
     width: 36px;
     height: 36px;
-    background-image: url(/images/tick.png);
+    background-image: url(../images/tick.png);
 }
 
 .left-content-list {
@@ -376,7 +376,7 @@ nav ul li a:hover {
 .summaryBox::before {
     content: "";
     position: absolute;
-    background-image: url(/images/grid-design-2.png);
+    background-image: url(../images/grid-design-2.png);
     background-position: center;
     background-size: cover;
     width: 100%;
@@ -424,7 +424,7 @@ nav ul li a:hover {
     content: "";
     width: 89%;
     height: 50%;
-    background-image: url(/images/card-bg.png);
+    background-image: url(../images/card-bg.png);
     background-size: cover;
     background-position: bottom;
     bottom: 36px;
@@ -469,7 +469,7 @@ section.similar-results {
 section.similar-results::before {
     position: absolute;
     content: "";
-    background-image: url(/images/radial-gradient.webp);
+    background-image: url(../images/radial-gradient.webp);
     background-size: cover;
     background-position: top;
     width: 100%;
@@ -497,7 +497,7 @@ section.similar-results::before {
 .testimonial::before {
     position: absolute;
     content: "";
-    background-image: url(/images/footer-bg.webp);
+    background-image: url(../images/footer-bg.webp);
     background-size: cover;
     background-position: bottom;
     width: 100%;
