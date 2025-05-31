@@ -39,7 +39,7 @@ header {
 .const-header {
     position: fixed;
     width: 100%;
-    z-index: 4;
+    z-index: 7;
 }
 
 .mobile-menu-button, .close-menu-icon {
