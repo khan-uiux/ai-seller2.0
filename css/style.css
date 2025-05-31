@@ -1,0 +1,570 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+p {
+    font-size: 17px;
+    font-weight: 400;
+}
+
+/* variables */
+
+:root {
+    --headerBg : linear-gradient(to bottom, #000000, #666666);
+    --textGradient : linear-gradient(to right, #B549FF, #7185FF);
+}
+
+/* hero-section-css */
+
+
+header {
+    background-image: url(/images/header-bg.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    padding: 16px 5vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all 0.5s linear;
+}
+
+.const-header {
+    position: fixed;
+    width: 100%;
+    z-index: 4;
+}
+
+.mobile-menu-button, .close-menu-icon {
+    display: none;
+}
+
+.text {
+    width: max-content;
+    font-size: 30px;
+    font-weight: bolder;
+    background: linear-gradient(to right, #B549FF, #7185FF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: 0px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 0px 10px;
+}
+
+.logo img {
+    width: 75px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 0px 40px;
+    align-items: center;
+}
+
+nav ul li {
+    list-style-type: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+nav ul li a:hover {
+    color: #B549FF;
+    transition: .3s;
+}
+
+.hero-section {
+    position: relative;
+    height: auto;
+    background-image: url(/images/hero-bg.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 110px;
+    text-align: center;
+}
+
+.hero-section::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: #6E38FD;
+    mix-blend-mode: overlay;
+    /* z-index: 9; */
+}
+
+.hero-subheading {
+    padding: 20px 30px;
+    border-radius: 30px;
+    background: linear-gradient(to bottom, #000000, #1B1811);
+    width: max-content;
+    margin: auto;
+    box-shadow: 0px 0px 20px #6E38FD;
+}
+
+.hero-subheading h2 {
+    color: #fff;
+    letter-spacing: .6px;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.hero-heading {
+    margin: 50px auto;
+}
+
+.h1-heading {
+    width: 82%;
+    font-size: 45px;
+    margin: auto;
+    color: #fff;
+    font-weight: normal;
+}
+
+.h1-heading span {
+    font-weight: bold;
+    color: #6E38FD;
+}
+
+.main-section {
+    height: auto;
+    padding: 90px 0px;
+    background-image: url(/images/grid-design.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 99.9%;
+    position: relative;
+    z-index: 2;
+}
+
+.main-section::before {
+    content: "";
+    width: 100%;
+    height: 120px;
+    background-color: rgba(24, 10, 61, 70%);
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    transform: rotate(-2deg);
+}
+
+.main-section::after {
+    content: "Win a FREE Copy of AISellers + $150 in Credits & More!";
+    width: 100%;
+    height: 120px;
+    background-color: #38178F;
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    color: #fff;
+    transform: rotate(2deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+}
+
+.laptop-screen {
+    width: 80%;
+    margin: auto;
+    padding-top: 44px;
+    position: relative;
+    z-index: 2;
+}
+
+.laptop-screen img {
+    width: 100%;
+}
+
+/* hero-section-css-close-here */
+
+
+.discover-workshop-section {
+    width: 100%;
+    height: auto;
+    padding: 100px 0px 0px 0px;
+    background-color: #070707;
+    position: relative;
+}
+
+.discover-workshop-section::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-image: url(/images/section-2-bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: -webkit-fill-available;
+}
+
+.section-heading {
+    font-size: 40px;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+}
+
+.section-heading span {
+    color: #6E38FD;
+}
+
+.section-heading.first {
+    margin: auto;
+    width: 70%;
+}
+
+.live-workshop {
+    width: 84%;
+    margin: auto;
+    position: relative;
+    z-index: 2;
+}
+
+.live-workshop .content {
+    margin: 70px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.live-workshop .content::before {
+    content: "";
+    position: absolute;
+    background-image: url(/images/grid-design-2.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    bottom: -344px;
+    right: -20px;
+}
+
+.live-workshop .content ul li {
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: normal;
+    color: #fff;
+    position: relative;
+    margin: 20px 0px;
+    padding-left: 57px;
+    list-style-type: none;
+}
+
+.live-workshop .content ul li span {
+    font-weight: 500;
+}
+
+.live-workshop .content ul li::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 36px;
+    height: 36px;
+    background-image: url(/images/tick.png);
+}
+
+.left-content-list {
+    width: 50%;
+}
+
+.main-education {
+    width: 540px;
+}
+
+.newslater {
+    background: linear-gradient(to bottom, #181825, #000000);
+    padding: 30px 30px 0px 0px;
+    border-radius: 30px;
+    position: relative;
+    z-index: 2;
+    display: flex;
+    overflow: hidden;
+    justify-content: space-between;
+    gap: 0px 80px;
+    align-items: flex-end;
+    width: 85%;
+    margin: auto;
+}
+
+.inputField {
+    border: none;
+    height: 60px;
+    border-radius: 30px;
+    background: #191934;
+    padding: 10px 10px 10px 40px;
+    display: block;
+    width: 100%;
+    margin: 20px 0px;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: .3px;
+}
+
+.newslater-image img {
+    width: 320px;
+    margin-bottom: -6px;
+}
+
+.newslater-text h4 {
+    font-size: 22px;
+    color: #fff;
+    font-weight: 500;
+    margin: 0px 0px 20px 0px;
+    padding: 20px 0px 0px 0px;
+}
+
+
+.sign-up-btn {
+    margin: 30px 0px;
+    background-color: #6E38FD;
+    padding: 20px 30px;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    color: #fff;
+    font-weight: 500;
+    font-size: 18px;
+    text-decoration: none;
+    text-shadow: 2px 2px 4px #00000067;
+}
+
+.summaryBox {
+    position: relative;
+    z-index: 3;
+    width: 75%;
+    margin: 100px auto;
+    text-align: center;
+}
+
+.summaryBox p {
+    color: #fff;
+    line-height: 30px;
+    margin: 20px 0px;
+}
+
+.summaryBox p span {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.summaryBox::before {
+    content: "";
+    position: absolute;
+    background-image: url(/images/grid-design-2.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    top: -128px;
+    z-index: -1;
+    right: -20px;
+}
+
+
+/* ebooks section  */
+
+.e-books {
+    width: 85%;
+    position: relative;
+    z-index: 4;
+    margin: 120px auto;
+}
+
+.e-books .cards  {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.e-books .card {
+    width: 500px;
+    height: 600px;
+    background: linear-gradient(to bottom, #1B1B1B, #000000);
+    padding: 30px;
+    border-radius: 30px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 40px 0px;
+}
+
+.e-books .card::before {
+    position: absolute;
+    content: "";
+    width: 89%;
+    height: 50%;
+    background-image: url(/images/card-bg.png);
+    background-size: cover;
+    background-position: bottom;
+    bottom: 36px;
+    left: 26px;
+}
+
+.card-heading {
+    font-size: 19px;
+    line-height: 32px;
+    color: #fff;
+    font-weight: 400;
+}
+
+.card-heading span {
+    color: #6E38FD;
+}
+
+.card-2 {
+    height: 520px !important;
+    align-items: baseline !important;
+}
+
+.card-2 img {
+    width: 100% !important;
+}
+
+
+/* similar projects */
+
+.innerSection {
+    width: 80%;
+    margin: auto;
+    position: relative;
+}
+
+section.similar-results {
+    position: relative;
+    padding: 100px 0px;
+    overflow: hidden;
+}
+
+section.similar-results::before {
+    position: absolute;
+    content: "";
+    background-image: url(/images/radial-gradient.webp);
+    background-size: cover;
+    background-position: top;
+    width: 100%;
+    height: 100%;
+    top: -82px;
+    left: 0;
+}
+
+.sub-heading {
+    font-size: 22px;
+    font-weight: 400;
+    color: #fff;
+    margin: 20px auto 60px auto;
+    width: 63%;
+    text-align: center;
+}
+
+/* testimonial */
+
+.testimonial {
+    position: relative;
+    padding: 100px 0px;
+}
+
+.testimonial::before {
+    position: absolute;
+    content: "";
+    background-image: url(/images/footer-bg.webp);
+    background-size: cover;
+    background-position: bottom;
+    width: 100%;
+    height: 100%;
+    right: 0;
+    bottom: 0;
+}
+
+.testimonial::after {
+    position: absolute;
+    content: "";
+    background : #6E38FD;
+    width: 100%;
+    height: 100%;
+    right: 0;
+    bottom: 0;
+    mix-blend-mode: overlay;
+}
+
+.review-card {
+    width: 450px;
+    height: auto;
+    border-radius: 30px;
+    background: linear-gradient(to bottom, #1B1B1B, #000000);
+    padding: 30px;
+}
+
+.inner-card {
+    display: flex;
+    justify-content: center;
+    gap: 0px 40px;
+    flex-wrap: wrap;
+    position: relative;
+    z-index: 5;
+}
+
+.review-card h3 {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 400;
+    margin: 0px 0px 20px 0px;
+    letter-spacing: .3px;
+}
+
+.review-card h3 span {
+    color: #6E38FD;
+    font-weight: bold;
+}
+
+.review-card p {
+    color: #fff;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 30px;
+    font-style: italic;
+}
+
+.userDetail {
+    display: flex;
+    justify-content: flex-start;
+    gap: 0px 20px;
+    align-items: center;
+}
+
+.userDetail h4 {
+    color: #fff;
+    font-size: 17px;
+    font-weight: 500;
+}

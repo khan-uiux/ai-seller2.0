@@ -1,0 +1,212 @@
+@media screen and (max-width: 768px) {
+
+    main {
+        padding: 0px 15px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: baseline;
+        gap: 15px 0px;
+    }
+
+    .logo img {
+        width: 60px;
+    }
+
+    .text {
+        font-size: 24px;
+    }
+    
+    nav {
+        position: absolute;
+        background : #7185FF;
+        padding: 15px;
+        border-radius: 0px;
+        width: 100%;
+        left: -26rem;
+        top: 0;
+        transition: all 0.5s linear;
+        z-index: 4;
+    }
+
+    .const-header {
+        width: 93%;
+        z-index: 6;
+        top: 0px;
+        left: 15px;
+    }
+
+    .mobile-menu-button, .close-menu-icon {
+        display: block;
+        cursor: pointer;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+    }
+
+    nav ul li a {
+        color: #fff;
+        font-size: 14px;
+    }
+
+    .main-section {
+        padding: 50px 15px 50px 15px;
+    }
+
+    .hero-subheading {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .h1-heading {
+        width: 100%;
+        font-size: 28px;
+    }
+
+    .main-section::before {
+        height: 90px;
+    }
+
+    .main-section::after {
+        height: 90px;
+        font-size: 14px;
+    }
+
+    .discover-workshop-section {
+        padding: 50px 0px 0px 0px;
+    }
+
+    .live-workshop {
+        width: 100%;
+        padding: 0px 15px;
+    }
+
+    .left-content-list {
+        width: 100%;
+    }
+
+    .live-workshop .content {
+        flex-direction: column;
+        margin: 20px 0px;
+    }
+
+    .live-workshop .content ul li {
+        font-size: 16px;
+        margin: 15px 0px;
+        padding-left: 45px;
+    }
+
+    .live-workshop .content::before {
+        bottom: -200px;
+        right: 0px;
+        z-index: -1;
+    }
+
+    .section-heading, .section-heading.first {
+        width: 100%;
+        font-size: 26px;
+    }
+
+    .main-education {
+        width: 100%;
+    }
+
+    .newslater {
+        width: 100%;
+        flex-direction: column;
+        padding: 20px 20px 0px 0px;
+    }
+
+    .newslater-image {
+        order: 2;
+        width: 100%;
+    }
+
+    .newslater-text {
+        order: 1;
+    }
+
+    form {
+        padding: 0px 15px 0px 15px;
+    }
+
+    /* .newslater-image img {
+        width: 100%;
+    } */
+
+    .summaryBox {
+        width: 100%;
+        margin: 50px auto;
+    }
+
+    .newslater-text h4 {
+        font-size: 20px;
+        padding: 0px 0px 0px 20px;
+    }
+
+    .sign-up-btn {
+        padding: 15px 20px;
+        font-size: 15px;
+    }
+
+    .e-books {
+        width: 100%;
+        padding: 0px 15px;
+        margin: 50px auto;
+    }
+
+    .e-books .cards {
+        margin-top: 50px;
+        gap: 15px;
+    }
+
+    .e-books .card, .card-2 {
+        height: auto !important;
+    }
+
+    .e-books .card img {
+        width: 100%;
+    }
+
+    section.similar-results {
+        padding: 50px 15px;
+    }
+
+    .innerSection {
+        width: 100%;
+    }
+
+    .sub-heading {
+        font-size: 19px;
+        margin: 20px auto 50px auto;
+        width: 100%;
+        font-weight: 300;
+    }
+
+    .testimonial {
+        padding: 50px 15px;
+    }
+
+    .inner-card {
+        gap: 15px 0px;
+    }
+
+    .summaryBox::before {
+        z-index: -2;
+    }
+}
+
+
+@media screen and (min-width: 768px) {
+    nav {
+        left: -47rem;
+    }
+
+    .const-header {
+        width: 96%;
+    }
+}
